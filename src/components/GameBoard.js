@@ -13,7 +13,7 @@ import { isMatch } from "./elements/DropLogic";
 
 function GameBoard() {
   const [droppable, setDroppable] = useState(false);
-  const [won, setWon] = useState(true);
+  const [won, setWon] = useState(false);
   const [newColor, setNewColor] = useState(false);
 
   const gameController = useSelector((state) => state.GameController);
